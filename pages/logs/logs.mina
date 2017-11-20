@@ -1,0 +1,11 @@
+<template lang='pug'>
+view.container.log-list 好玩么
+</template>
+
+<script>
+Page({
+  data: {
+    logs: []
+  }
+})
+</script>

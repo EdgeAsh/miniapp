@@ -1,0 +1,15 @@
+<template lang='pug'>
+view.container
+  view.userinfo 这里是首页呢
+</template>
+
+<script>
+  Page({
+    data: {
+      motto: 'Hello World',
+      userInfo: {},
+      hasUserInfo: false,
+      canIUse: wx.canIUse('button.open-type.getUserInfo')
+    }
+  })
+</script>
